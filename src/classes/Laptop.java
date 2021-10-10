@@ -16,4 +16,9 @@ public String toString() {
 	return "Laptop [autonomie=" + autonomie + ", Device=" + super.toString() + "]";
 }
 
+public Laptop(String marque, String systeme, String cpu, String carte, double prix, double autonomie) {
+	super(marque, systeme, cpu, carte, prix);
+	this.autonomie = autonomie;
+}
+
 }
